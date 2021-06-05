@@ -1,0 +1,5 @@
+ipython
+sqlalchemy
+pymysql
+mysqlclient
+mysql-connector-python
