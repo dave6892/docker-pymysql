@@ -1,14 +1,4 @@
 version: '3'
-
-# Run as
-# docker-compose build; docker-compose up -d
-# Check with
-# docker ps
-# Then check the logs with
-# docker logs --tail 50 $service_name
-# docker-compose images
-# docker-compose logs --tail 20 $service_name
-
 services:
 
   mysql_db:
@@ -31,7 +21,6 @@ services:
       - app-tier
     command:
       tail -f /dev/null
-
 
 networks:
   app-tier:
