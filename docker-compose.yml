@@ -3,7 +3,7 @@ services:
 
   mysql_db:
     image: mysql:5.7
-    environment:   # Set up mysql database name and password
+    environment:
       MYSQL_ROOT_PASSWORD: password
       MYSQL_DATABASE: db
       MYSQL_USER: user
